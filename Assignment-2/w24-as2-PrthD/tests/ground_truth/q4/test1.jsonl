@@ -1,0 +1,6 @@
+{"book_id": 1, "title": "Book 1", "author": "John", "bcount": 2, "rdate": "2023-11-15"}
+{"book_id": 2, "title": "Book 2", "author": "John", "bcount": 2, "rdate": "2023-11-15"}
+{"book_id": 3, "title": "Book 3", "author": "Marry", "bcount": 4, "rdate": "2023-10-15"}
+{"book_id": 4, "title": "Book 4", "author": "Mike", "bcount": 3, "rdate": "2023-11-15"}
+{"book_id": 5, "title": "Book 5", "author": "Rejwana", "bcount": 1, "rdate": "2023-11-15"}
+{"book_id": 6, "title": "Book 6", "author": "Marry", "bcount": 0, "rdate": null}

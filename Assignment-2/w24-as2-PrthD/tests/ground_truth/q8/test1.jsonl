@@ -1,0 +1,4 @@
+{"member": "dave@ualberta.ca", "count(distinct mp.pid)": 4, "ifnull(cnt,0)": 2, "ifnull(sm,0)": 110}
+{"member": "john@ualberta.ca", "count(distinct mp.pid)": 1, "ifnull(cnt,0)": 1, "ifnull(sm,0)": 90}
+{"member": "marry@ualberta.ca", "count(distinct mp.pid)": 1, "ifnull(cnt,0)": 0, "ifnull(sm,0)": 0}
+{"member": "sarah@ualberta.ca", "count(distinct mp.pid)": 1, "ifnull(cnt,0)": 1, "ifnull(sm,0)": 70}

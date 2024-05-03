@@ -1,0 +1,2 @@
+agent: NA
+Details: In this query, my focus was on listing members with penalties, accurately counting the penalties, and summing up the paid amounts for fully paid penalties. I chose LEFT JOINs to connect the members, borrowings, and penalties, and used conditional statements within SUM and COUNT to handle the intricacies of penalty payments and ensure accurate calculations.

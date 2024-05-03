@@ -1,0 +1,6 @@
+{"book_id": 1, "title": "Book 1", "revcnt": 0, "rating": 0.0, "rating23": 0.0, "reqcnt": 2}
+{"book_id": 2, "title": "Book 2", "revcnt": 2, "rating": 3.5, "rating23": 4.0, "reqcnt": 2}
+{"book_id": 3, "title": "Book 3", "revcnt": 1, "rating": 4.0, "rating23": 4.0, "reqcnt": 5}
+{"book_id": 4, "title": "Book 4", "revcnt": 0, "rating": 0.0, "rating23": 0.0, "reqcnt": 4}
+{"book_id": 5, "title": "Book 5", "revcnt": 0, "rating": 0.0, "rating23": 0.0, "reqcnt": 1}
+{"book_id": 6, "title": "Book 6", "revcnt": 0, "rating": 0.0, "rating23": 0.0, "reqcnt": 0}

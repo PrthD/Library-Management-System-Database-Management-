@@ -1,0 +1,2 @@
+agent: NA
+Details: I wanted to identify books with at least two reviews and rank them by their average rating. By grouping the results by 'book_id' and 'title', I could aggregate review data for each book. I then used HAVING to filter for books with the minimum number of reviews and ordered the results by the average rating, limiting to the top 3 books to find the highest-rated ones.

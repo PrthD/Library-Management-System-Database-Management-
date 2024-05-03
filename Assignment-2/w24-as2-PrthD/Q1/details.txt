@@ -1,0 +1,2 @@
+agent: NA
+Details: I started with the task of identifying members who have waitlisted the same books they've borrowed. My approach involved directly comparing the 'email' field from the 'members' table with the 'member' fields in both 'waitlists' and 'borrowings' tables. I made sure to match the 'book_id' in both 'waitlists' and 'borrowings' to ensure the member had both borrowed and waitlisted the same book. Using DISTINCT ensured that each member appeared only once in the result, even if they had multiple such transactions.

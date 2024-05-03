@@ -1,0 +1,2 @@
+agent: NA
+Details: Creating the 'book_info' view, I wanted to include various statistics for each book. By using LEFT JOIN, I ensured all books were included, even those without reviews. I used COALESCE to replace NULL values with 0.0 for books without reviews, ensuring the output was as expected.

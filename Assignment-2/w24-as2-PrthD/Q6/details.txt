@@ -1,0 +1,2 @@
+agent: NA
+Details: The task was to select books borrowed at least once and with at least double the borrowings compared to waitlistings. By grouping the data by book details and counting the number of borrowings, I could apply the conditions (books published on or before 2015) to filter the books accordingly. The direct comparison with the waitlist count allowed me to meet the specified criteria efficiently.

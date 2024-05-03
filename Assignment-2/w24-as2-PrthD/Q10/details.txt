@@ -1,0 +1,2 @@
+agent: NA
+Details: My task was to list members borrowing only popular books. I defined popular books based on average rating and request count, then checked each borrowing against these criteria using the 'book_info' view. I used NOT EXISTS to exclude members with any borrowings of non-popular books.
