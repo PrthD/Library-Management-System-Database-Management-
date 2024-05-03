@@ -1,0 +1,51 @@
+INSERT INTO members VALUES ('john.doe@example.com', 'pass123', 'John Doe', 1985, 'Computer Science');
+INSERT INTO members VALUES ('jane.doe@example.com', 'pass456', 'Jane Doe', 1990, 'Literature');
+INSERT INTO members VALUES ('chris.smith@example.com', 'pass789', 'Chris Smith', 1975, 'Physics');
+INSERT INTO members VALUES ('alex.taylor@example.com', 'pass321', 'Alex Taylor', 1988, 'Mathematics');
+INSERT INTO members VALUES ('sam.robinson@example.com', 'pass654', 'Sam Robinson', 1982, 'Biology');
+INSERT INTO members VALUES ('user1@example.com', 'password1', 'User One', 1980, 'Engineering');
+INSERT INTO members VALUES ('user2@example.com', 'password2', 'User Two', 1990, 'Arts');
+INSERT INTO members VALUES ('user3@example.com', 'password3', 'User Three', 1985, 'Science');
+
+INSERT INTO books VALUES (1, 'Introduction to Computer Science', 'Alice Johnson', 2010);
+INSERT INTO books VALUES (2, 'Advanced Physics', 'Bob Smith', 2005);
+INSERT INTO books VALUES (3, 'World Literature', 'Cathy Brown', 2015);
+INSERT INTO books VALUES (4, 'Calculus 101', 'Daniel Moore', 2012);
+INSERT INTO books VALUES (5, 'Biology for Beginners', 'Eva Stuart', 2018);
+INSERT INTO books VALUES (6, 'Introduction to Advanced Science', 'Alice Johnson', 2021);
+INSERT INTO books VALUES (7, 'Advanced Science: A New Approach', 'Bob Smith', 2020);
+INSERT INTO books VALUES (8, 'The World of Science', 'Cathy Brown', 2019);
+INSERT INTO books VALUES (9, 'Science and Technology', 'Daniel Moore', 2022);
+INSERT INTO books VALUES (10, 'Exploring the Universe: Science', 'Eva Stuart', 2018);
+INSERT INTO books VALUES (11, 'Science for Beginners', 'Alice Johnson', 2017);
+INSERT INTO books VALUES (12, 'The Science of Everyday Life', 'Bob Smith', 2021);
+INSERT INTO books VALUES (13, 'Science and Society', 'Cathy Brown', 2020);
+INSERT INTO books VALUES (14, 'The Future of Science', 'Daniel Moore', 2022);
+INSERT INTO books VALUES (15, 'Practical Applications of Science', 'Eva Stuart', 2019);
+
+INSERT INTO borrowings VALUES (1, 'john.doe@example.com', 1, '2024-03-01', NULL);
+INSERT INTO borrowings VALUES (2, 'jane.doe@example.com', 2, '2024-02-10', '2024-03-02');
+INSERT INTO borrowings VALUES (3, 'chris.smith@example.com', 3, '2024-02-15', NULL);
+INSERT INTO borrowings VALUES (4, 'alex.taylor@example.com', 4, '2024-03-05', NULL);
+INSERT INTO borrowings VALUES (5, 'alex.taylor@example.com', 5, '2024-02-20', '2024-03-12');
+INSERT INTO borrowings VALUES (6, 'alex.taylor@example.com', 1, '2024-02-20', NULL);
+INSERT INTO borrowings VALUES (101, 'user1@example.com', 7, '2024-01-10', NULL);
+INSERT INTO borrowings VALUES (102, 'user2@example.com', 8, '2024-01-15', '2024-02-05');
+INSERT INTO borrowings VALUES (103, 'user3@example.com', 9, '2024-01-20', NULL);
+INSERT INTO borrowings VALUES (104, 'user1@example.com', 10, '2024-01-25', '2024-02-15');
+INSERT INTO borrowings VALUES (105, 'user2@example.com', 11, '2024-01-30', NULL);
+
+INSERT INTO penalties VALUES (1, 3, 5, NULL);
+INSERT INTO penalties VALUES (2, 5, 10, 5);
+INSERT INTO penalties VALUES (3, 4, 3, NULL);
+
+INSERT INTO reviews VALUES (1, 1, 'jane.doe@example.com', 5, 'Great book for beginners!', '2024-03-05');
+INSERT INTO reviews VALUES (2, 2, 'john.doe@example.com', 4, 'Challenging but rewarding read.', '2024-03-07');
+INSERT INTO reviews VALUES (3, 3, 'alex.taylor@example.com', 3, 'Interesting perspectives, though dense.', '2024-03-10');
+INSERT INTO reviews VALUES (4, 4, 'alex.taylor@example.com', 5, 'Clear explanations and great examples.', '2024-03-11');
+INSERT INTO reviews VALUES (101, 6, 'user1@example.com', 5, 'Incredible insights into science.', '2024-02-01');
+INSERT INTO reviews VALUES (102, 7, 'user2@example.com', 4, 'Very informative but quite challenging.', '2024-02-02');
+INSERT INTO reviews VALUES (103, 8, 'user3@example.com', 3, 'Good for general knowledge.', '2024-02-03');
+INSERT INTO reviews VALUES (104, 9, 'user1@example.com', 2, 'Somewhat dry and hard to follow.', '2024-02-04');
+INSERT INTO reviews VALUES (105, 10, 'user2@example.com', 1, 'Not what I expected, quite disappointing.', '2024-02-05');
+INSERT INTO reviews VALUES (106, 10, 'user1@example.com', 3, 'Not what I expected, quite disappointing.', '2024-02-05');
