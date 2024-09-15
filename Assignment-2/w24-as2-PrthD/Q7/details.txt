@@ -1,2 +1,0 @@
-agent: NA
-Details: To find the top three most frequently borrowed books, I utilized the RANK() function within a subquery, ordering by the count of borrowings. Assigning ranks in this way and then selecting books with ranks up to 3 allowed me to include all top books, including any ties for the third place, ensuring a fair ranking.

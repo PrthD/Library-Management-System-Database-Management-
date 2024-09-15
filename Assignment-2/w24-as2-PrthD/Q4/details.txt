@@ -1,2 +1,0 @@
-agent: NA
-Details: My objective was to gather statistics on books published after 2001, including borrowing counts and the most recent borrow date. I used a LEFT OUTER JOIN to account for all books, ensuring even those never borrowed were included. Grouping by book attributes allowed me to aggregate the borrowing data per book, and I used COUNT and MAX to get the number of times borrowed and the latest borrowing date, respectively.

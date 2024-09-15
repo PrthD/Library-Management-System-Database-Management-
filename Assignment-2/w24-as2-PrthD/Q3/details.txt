@@ -1,2 +1,0 @@
-agent: NA
-Details: I aimed to list borrowings that exceeded 14 days and were not high-priority waitlisted. I used a LEFT JOIN to include all relevant 'borrowings' and then applied conditions to exclude those with an associated high-priority waitlist from 'waitlists'. Calculating the difference between 'end_date' and 'start_date' helped me filter for the duration, and ensuring 'end_date' was not NULL helped exclude ongoing borrowings.

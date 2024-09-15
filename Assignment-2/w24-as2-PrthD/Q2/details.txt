@@ -1,2 +1,0 @@
-agent: NA
-Details: For this query, my goal was to find borrowings by members from the "CS" faculty of books authored by either "John" or "Marry". I decided to link the 'borrowings', 'members', and 'books' tables through their common fields. I specifically looked for 'CS' faculty members and applied a case-insensitive search for the authors using LOWER. The direct comparison allowed me to efficiently filter and retrieve the needed records without any complexities.
