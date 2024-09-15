@@ -1,15 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/50dc0VUx)
-# CMPUT 291 Mini Project 1 - Winter 2024  
-Group member names and ccids (3-4 members)  
-  hetbhara, Het Bharatkumar Patel  
-  pdadhani, Parth Dadhania  
-  kjemhus, Nole Kjemhus  
-  dmhoang, Manh Duong Hoang
-
-# Group work break-down strategy
-Het Bharatkumar Patel (SID:1742431): Implemented main.py, parts of bookManagement.py, Created test database (test.db) and tested the Final Project
-Parth Dadhania        (SID:1722612): Implemented dbSetup.py, penaltyManagement.py, parts of bookManagement.py, and tested the Final Project.
-
 # Code execution guide
 > Files Needed for the execution of program:
 1. dbSetup.py: Initializes the database using the provided schema.
@@ -44,5 +32,3 @@ Once the program is running, you will be greeted with the main menu of the Libra
 Follow the on-screen prompts to navigate through the system. Input validation is provided for operations to guide you through the correct usage and to prevent common input errors.
 
 Enjoy managing your library!
-
-# We did not collaborate with anyone else.
