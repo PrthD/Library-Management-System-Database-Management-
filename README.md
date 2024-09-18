@@ -1,5 +1,5 @@
 
-# Library-Management-System (Database-Management)
+# Library Management System (Database Management)
 
 ## Project Overview
 This Library Management System is a database-driven project designed to manage a library's users, books, and penalties. The system allows users to register, log in, search for books, borrow and return books, view their profile, and manage any penalties associated with overdue books. The system is built using Python and SQLite.
