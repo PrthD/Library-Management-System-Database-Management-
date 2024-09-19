@@ -42,9 +42,9 @@ The **Library Management System** is a Python-based project designed to manage a
    ```bash
    git clone https://github.com/your-username/Library-Management-System-Database-Management.git
    cd Library-Management-System-Database-Management
-2. **Set up the database: Navigate to the src/ directory**:
+2. **Navigate to the src/ directory**:
    ```bash
-   cd src
+   cd Library-Management-System-Database-Management/src
 3. **Run the main application: The main.py script will handle database initialization automatically using the schema and data files. Execute the following command**:
    ```bash
    python3 main.py ../sql/mp1-schema.sql.txt ../data/test.db
