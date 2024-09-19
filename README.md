@@ -1,35 +1,57 @@
-
 # Library Management System (Database Management)
 
 ## Project Overview
-This Library Management System is a database-driven project designed to manage a library's users, books, and penalties. The system allows users to register, log in, search for books, borrow and return books, view their profile, and manage any penalties associated with overdue books. The system is built using Python and SQLite.
+The **Library Management System** is a Python-based project designed to manage a library's operations, including user management, book management, and penalty management. The system uses SQLite for persistent data storage and provides a user-friendly interface for both users and administrators.
 
-## Code Execution Guide
+## Features
 
-### Files Needed for Execution
-- **`dbSetup.py`**: Initializes the database using the provided schema.
-- **`userManagement.py`**: Handles user-related functionalities such as registration and login.
-- **`penaltyManagement.py`**: Manages penalty-related functionalities, including viewing and paying penalties.
-- **`bookManagement.py`**: Manages book-related functionalities, such as searching, borrowing, and returning books.
-- **`utils.py`**: Contains utility functions used throughout the project, including user input prompts.
-- **`main.py`**: The main driver script that serves as the user interface for interacting with the system.
-- **`mp1-schema.sql.txt`**: An SQL schema file containing the necessary commands to create database tables.
-- **`test.db`**: A pre-populated SQLite database file used for testing and demonstration purposes.
+- **User Management**: Allows users to register, log in, and view their profiles.
+- **Book Management**: Users can search, borrow, return books, and leave reviews.
+- **Penalty Management**: Tracks penalties for overdue books and allows users to pay fines.
+- **SQLite Integration**: All data is stored in an SQLite database, managed seamlessly by the system.
 
-### How to Execute the Program
-1. Ensure you have **Python 3** installed. You can verify by running:
+## Project Structure
+
+/ (Root directory)
+│
+├── src/                      # Source code directory
+│   ├── main.py               # Main entry point of the application
+│   ├── bookManagement.py     # Book management module
+│   ├── penaltyManagement.py  # Penalty management module
+│   ├── userManagement.py     # User management module
+│   ├── utils.py              # Utility functions used across the project
+│   └── dbSetup.py            # Database setup and initialization
+│
+├── sql/                      # Directory for SQL-related files
+│   └── mp1-schema.sql.txt    # SQL schema for the database
+│
+├── data/                     # Data directory
+│   └── test.db               # SQLite database file
+│
+├── README.md                 # Project documentation
+└── requirements.txt          # Python dependencies (optional)
+
+## Requirements
+
+- **Python 3.x**
+- **SQLite** (No external dependencies required)
+
+## Installation
+
+1. **Clone the repository**:
    ```bash
-   python3 --version
-   ```
-2. Place all the files mentioned above in the same directory.
-3. Open a terminal or command prompt, and navigate to the directory containing your project files.
-4. Execute the program by running the following command:
+   git clone https://github.com/your-username/Library-Management-System-Database-Management.git
+   cd Library-Management-System-Database-Management
+2. **Set up the database: Navigate to the src/ directory**:
    ```bash
-   python3 main.py mp1-schema.sql.txt test.db
+   cd src
+3. **Run the main application: The main.py script will handle database initialization automatically using the schema and data files. Execute the following command**:
+   ```bash
+   python3 main.py ../sql/mp1-schema.sql.txt ../data/test.db
    ```
+   This command will launch the Library Management System's user interface.
 
-## Navigating the Program
-Once the program is running, you'll be presented with the main menu of the Library Management System. Below are the available options and how to use them:
+## Usage
 
 ### Main Menu Options:
 - **Login**: If you're an existing user, select this option to log in by providing your email and password.
@@ -49,4 +71,11 @@ Once logged in, you’ll see additional options in the user menu:
 ### Input Validation:
 The system provides input validation to ensure smooth interaction, guiding you through correct usage and preventing common input errors.
 
-### Enjoy Managing Your Library!
+## Database Schema
+The database schema is defined in sql/mp1-schema.sql.txt. It contains the following tables:
+
+- **Members**: Stores user information (email, password, name, birth year, and faculty).
+- **Books**: Stores book details (book ID, title, author, and publication year).
+- **Borrowings**: Tracks book borrowing activity (book ID, start and end dates).
+- **Penalties**: Tracks penalties for overdue book returns.
+- **Reviews**: Stores user-submitted book reviews and ratings.
