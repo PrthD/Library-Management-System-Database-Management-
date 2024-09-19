@@ -29,8 +29,7 @@ The **Library Management System** is a Python-based project designed to manage a
 ├── /data/                      # Data directory
 │   └── test.db                 # SQLite database file
 │
-├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies (optional)
+└── README.md                   # Project documentation
 ```
 
 ## Requirements
