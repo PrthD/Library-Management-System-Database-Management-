@@ -12,25 +12,18 @@ The **Library Management System** is a Python-based project designed to manage a
 
 ## Project Structure
 
-```plaintext
-/ (Root directory)
-│
-├── /src/                       # Source code directory
-│   ├── main.py                 # Main entry point of the application
-│   ├── bookManagement.py       # Book management module
-│   ├── penaltyManagement.py    # Penalty management module
-│   ├── userManagement.py       # User management module
-│   ├── utils.py                # Utility functions used across the project
-│   └── dbSetup.py              # Database setup and initialization
-│
-├── /sql/                       # Directory for SQL-related files
-│   └── mp1-schema.sql.txt      # SQL schema for the database
-│
-├── /data/                      # Data directory
-│   └── test.db                 # SQLite database file
-│
-└── README.md                   # Project documentation
-```
+- **/src/**: Source code directory
+   - `main.py`: Main entry point of the application
+   - `bookManagement.py`: Book management module
+   - `penaltyManagement.py`: Penalty management module
+   - `userManagement.py`: User management module
+   - `utils.py`: Utility functions used across the project
+   - `dbSetup.py`: Database setup and initialization
+- **/sql/**: Directory for SQL-related files
+   - `mp1-schema.sql.txt`: SQL schema for the database
+- **/data/**: Data directory
+   - `test.db`: SQLite database file
+- `README.md`: Project documentation
 
 ## Requirements
 
