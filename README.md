@@ -34,7 +34,7 @@ The **Library Management System** is a Python-based project designed to manage a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/Library-Management-System-Database-Management.git
+   git clone https://github.com/PrthD/Library-Management-System-Database-Management.git
 2. **Navigate to the src/ directory**:
    ```bash
    cd Library-Management-System-Database-Management/src
